@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://api.github.com; base-uri 'none'; form-action 'none'">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <title>DSA Sheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="styles.css?v=d26315e9">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#sheet">DSA Sheet</a>
+      <nav class="seg" aria-label="Sections">
+        <a href="#sheet" data-view="sheet">Sheet</a>
+        <a href="#concepts" data-view="concepts">Concepts</a>
+        <a href="#revise" data-view="revise">Revise</a>
+        <a href="#progress" data-view="progress">Progress</a>
+      </nav>
+      <div id="topbar-auth" class="topbar-auth"></div>
+    </div>
+  </header>
+  <main id="app" class="wrap" tabindex="-1"></main>
+  <footer class="wrap foot" id="foot"></footer>
+
+  <script src="vendor/marked.min.js?v=15fabce5"></script>
+  <script src="vendor/highlight.min.js?v=837a6fa5"></script>
+  <script src="vendor/java.min.js?v=309eaa0f"></script>
+  <script src="vendor/purify.min.js?v=cd37898f"></script>
+  <script src="logic.js?v=0994d9d3"></script>
+  <script src="github.js?v=3d1428c0"></script>
+  <script src="crypto.js?v=e26a970f"></script>
+  <script src="app.js?v=36774b5b"></script>
+  <script src="unlock.js?v=a1651794"></script>
+</body>
+</html>
